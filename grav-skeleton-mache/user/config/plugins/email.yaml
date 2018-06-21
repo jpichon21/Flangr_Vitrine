@@ -1,0 +1,15 @@
+enabled: true
+from: test@test.com
+to: juliencfpichon@gmail.com
+mailer:
+  engine: sendmail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+    user: admin
+    password: Nomdp21!
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: false

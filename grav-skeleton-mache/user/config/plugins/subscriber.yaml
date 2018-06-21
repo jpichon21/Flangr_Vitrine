@@ -1,0 +1,4 @@
+enabled: false
+built_in_css: true
+email_from: user@example.com
+email_to: user@example.com

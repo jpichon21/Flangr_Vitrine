@@ -1,0 +1,12 @@
+enabled: false
+parent: widgets
+enable_twig: true
+enable_shortcode: false
+enable_modal: true
+add_modals:
+  -
+    label: 'Create Widget'
+    blueprint: admin/pages/widget_new
+    show_in: bar
+extras: true
+widgets_in_widget: false
